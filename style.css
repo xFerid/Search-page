@@ -1,0 +1,111 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(12, 12, 12);
+    position: relative;
+    text-align: center;
+}
+#ppsiz {
+    opacity: 0;
+    animation-name: ppsiz;
+    animation-duration: 5s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes ppsiz {
+    from {  opacity: 0;}
+    to { opacity: 1;}
+
+}
+#umumidiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+#ppdiv {
+    text-align: center;
+    padding: 0 0 20px 0!important;
+}
+#pp {
+    width: 170px;
+    height: 170px;
+    opacity: 0;
+    border-radius: 90px;
+    animation-name: pp;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes pp {
+    from {  opacity: 0;}
+    to { opacity: 1;}
+
+}
+h1 {
+    font: 1.5em Arial!important;
+    color: rgb(209, 206, 206);
+    text-align: center;
+}
+h2 {
+    font: .8em Arial!important;
+    color: rgb(160, 158, 158);
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 20px!important;
+}
+h3 {
+    font: .7em Arial!important;
+    color: rgb(160, 158, 158);
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 30px!important;
+}
+h3:hover {
+    color: rgb(105, 102, 102);
+}
+#axtarish {
+    width: 220px;
+    height: 35px;
+    background: rgb(26, 25, 25);
+    color: #fff;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+#submit {
+    width: 100px;
+    height: 35px;
+    background: #ff8d22;
+    color: #fff;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    outline: none;
+    text-align: right;
+    padding-right: 10px;
+    position: relative;
+    right: 5px;
+}
+#submit:hover {
+    background: #ff5722;
+	cursor: pointer;
+}
+#prof {
+    padding: 30px;
+}
+#prof a {
+    padding: 3px;
+}
+.uil-github {
+    font-size: 1.8em;
+    color: #fff;
+}
+.uil-linkedin {
+    font-size: 1.8em;
+    color: #057dbd;
+}
+.uil-instagram-alt {
+    font-size: 1.8em;
+    color: #8a3ab9;
+}
